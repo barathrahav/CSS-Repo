@@ -1,0 +1,103 @@
+body{
+    max-width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+    background-color: lightslategray;
+}
+.main{
+    background-color: white;
+    height: max-content;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading2{
+    font-size:22px;
+    font-family: Georgia;
+    font-weight: 550;
+    padding: 5px 0;
+    color: darkslategray;
+}
+.headblock{
+    font-size: 8px;
+    font-family: Georgia;
+    background-color: darkslategrey;
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 5px;
+    margin: 0 auto;
+}
+.pagehead{
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.pagehead .dte{
+    font-size: 8px;
+    font-family: Georgia;
+    border: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 99%;
+    margin: 0 auto;
+}
+.pagehead .mainheading{
+    font-size: 60px;
+    font-family: Georgia;
+    font-weight: 800;
+    color: darkslategray;
+    border: 2px solid black;
+    width: 99%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 0 auto;
+}
+.maincontent{
+    display:flex;
+    width: 100%;
+}
+.box1{
+    position: relative;
+    margin:5px 0;
+    max-width: 30%;
+    padding: 10px;
+    text-align:center;
+}
+.maindiv1 p,.maindiv2 p,.maindiv3 p{
+    width:100%;
+    text-align: justify;
+    font-size: 18px;
+}
+span{
+    font-size: 22px;
+    font-weight: 600;
+    color: darkslategrey;
+    font-family: Times New Roman;
+}
+.box2{
+    position: relative;
+    padding: 10px;
+    margin: 5px 0;
+    max-width: 70%;
+    text-align: center;
+}
+.maindiv4 p{
+    text-align: justify;
+    margin: 5px 0;
+    font-size: 18px;
+}
+hr{
+    height: 2px;
+    background-color: darkslategray;
+}
+.img3{
+    margin-top: 10px;
+}
+.img4{
+    margin:10px 10px;
+    float: left;
+}
