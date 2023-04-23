@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
+    /* font-family: 'Poppins',sans-serif; */
 }
 .bg{
     display: flex;
@@ -49,6 +49,7 @@
 }
 .title{
     font-size: 30px;
+    font-family: 'Rubik Pixels', cursive;
     font-weight: 600;
     position: relative;
 }
