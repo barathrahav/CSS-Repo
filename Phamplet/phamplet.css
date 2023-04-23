@@ -7,12 +7,68 @@
     box-sizing: border-box;
     font-family: 'Poppins',sans-serif;
 }
-html, body{
-    display: grid;
-    height: 100vh;
-    width: 100%;
-    
+.bg{
+    display: flex;
+    max-width: 100%;
+    height: 100%;
 }
 .container{
-    background-image:'bg36717.jpg';
+    display: inline-flex;
+}
+.main{
+    position: absolute;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+    max-width: 550px;
+    width: 100%;  
+}
+.sub1{
+    margin-top: 550px;
+    margin-left: 50px;
+    text-align: center;
+    position: absolute;
+    max-width: 350px;
+    width: 100%;
+}
+.sub2{
+    margin-top: 550px;
+    margin-left: 500px;
+    text-align: center;
+    position: absolute;
+    max-width: 350px;
+    width: 100%;
+}
+.sub3{
+    margin-top: 550px;
+    margin-left: 950px;
+    text-align: center;
+    position: absolute;
+    max-width: 350px;
+    width: 100%;
+}
+.title{
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+}
+input{
+    margin: 20px 20px 20px 40px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+}
+input[type="submit"]{
+    font-size:15px;
+    font-weight: 800;
+}
+.mn{
+    height: 50px;
+    width: 50px;
+}
+.ult{
+    position: absolute;
+    height: 450px;
+    margin-left: 800px;
+    margin-top: 40px;
 }
